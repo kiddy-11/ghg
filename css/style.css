@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+/* common section start */
+ul li{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    
+}
+.row{
+    display: flex;
+    flex-wrap:wrap;
+
+}
+/* common section end */
+/* header section start */
+#top_header .top_left_header,
+#top_header .top_right_header{
+    width: 50%;
+}
+#top_header ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+#top_header .top_left_header ul li{}
+#top_header .top_left_header ul li
+select{
+background: none;
+border: none;
+}
+/* header section end */
+:root{
+    --nav-bg:#444444;
+    --bg-n:#303030;
+    --hp-f:#fff;
+    --pera-p:#f1f1f1;
+    --mm-n:#353535;
+    --nn-n:#555555;
+    
+}
+
+/* header section end */
+
+/* banner  section start */
+#banner{
+    background-image: url(../image/banner_jpg.jpg);
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+ 
+#banner .content{
+    align-items: center;
+}
+#banner .banner_content{
+    width:40%;
+}
+#bannner::after{
+    content: '';
+    position: absolute;
+    width:100%;
+    height: 100%;
+    background: black;
+    top:0;
+    left:0;
+}
+#banner .banner_content{
+    width: 44%; 
+}
+#banner .banner_content h1{
+    color: #de4644;
+}
+#banner .banner_content h1 ,span{
+    text-transform: uppercase;
+}
+#banner .banner_content h2, p{
+    color: #fff;
+}
+#banner .banner_content p{
+    margin:28px auto;
+}
+#banner .banner_img img{
+    position: absolute;
+    left:0;
+    bottom: 0;
+}
+#banner .banner_content .banner_btn a{
+    display:inline-block;
+    text-decoration: none;
+    padding: 10px 25px;
+    border: 1px solid var(--hp-f);
+    border-radius: 4px;
+}
+#banner .banner_content .banner_btn a:hover{
+    color: #fff;
+    background-color: #de4644;
+}
+
+/* banner section end */
+
+/* pera secion start */
+#pera_f .pera{
+    text-align: center;
+    display: flex;
+    background-color:var(--pera-p) ;
+}
+/* pera section end */
+
+/* img section start */
+#image_r .image{
+    display: flex;
+    padding: 102px;
+    align-items: left;
+    left: 10px;
+    margin: 3px;
+    
+}
+/* img section end */
+
+/* ni section start */
+#nigar .ni{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+/* ni section end */
+
+/*menu_1 section start  */
+#menu_1 .woman ul{
+    list-style-type: none;
+}
+#menu_1 .woman ul li{
+    display: inline-block;
+}
+#menu_1 .woman ul li a{
+    display: inline-block;
+    display: flex;
+    padding: 20px 10px;
+    align-items: center;
+    text-align: center;
+   
+} 
+
+/* menu_1 section end */
+
+/* cloth design section start */
+#cloth_design .cloth{
+    display: flex;
+   
+}
+#cloth_design .cloth{
+    width: 100%;
+}
+#cloth_design .cloth img{
+    margin: 32px;
+    align-items: left;
+}
+
+/* cloth design section end */
+
+/* computer section start */
+#computer .container,
+#computer .container .row{
+    height: 100%;
+}
+#computer .container .row{
+    align-items: center;
+}
+#computer{
+    display: flex;
+    height: 455px;
+    background-color:var(--pera-p) ;
+    position: relative;
+}
+#computer .laptop_1{
+    width: 55%;
+}
+#computer .laptop_1 .img{
+    position: absolute;
+}
+#computer .computer_text{
+    width: 45%;
+
+}
+/* computer section end */
+/* latest section start */
+#latest{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    padding: 90px;
+}
+/* latest section end */
+/* mobile section start */
+#mobile .mobile_img{
+    display: flex;
+    width: 100%;
+}
+#mobile .mobile_img img{
+    margin:32px;
+    align-items: center;
+}
+/* mobile section end */
+/* test section start */
+#test{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+/* test section end */
+/* sign section start */
+#sign{
+    background-image: url(../image/cloth.png);
+    width:100%;
+    align-items: center;
+    background:cover;
+    position: relative;
+
+
+}
+#sign .container .row{
+    display: flex;
+    font-family: 'Lato', sans-serif;
+}
+
+/*--- shakir start--- */
+#sign .sign_1 .shakir{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+/*---shakir end--- */
+/* ---aminul start--- */
+#sign .sign_1 .aminul{
+    width:50%;
+    display: flex;
+    align-items: center;
+    
+}
+#sign .sign_1 .aminul p{
+    align-items: right;
+    font-family: 'Dancing Script', cursive;
+}
+/* ---aminul end--- */
+
+/* sign section end */
+/* our section start */
+#our .our_1{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+/* our section end */
+/* model section start */
+#model .image{
+    display: flex;
+}
+#model .image img{
+    margin: 32px;
+}
+#model .image a:hover{
+    color: #de4644;
+}
+/* model section end */
+/* address section start */
+#address .content{
+    align-items: left;
+}
+#address .content .logo{
+    display: flex;
+    width: 100%;
+    background-color: var(--mm-n);
+    color:#adadad;
+    padding: 76px;
+
+}
+#address .content .logo .logo_1{
+    width: 25%;
+}
+#address .content .logo .contect{
+    width: 25%;
+}
+#address .content .logo .account{
+    width: 25%;
+}
+#address .content .up{
+    width: 25%;
+}
+#address .content .up form input{
+    background-color:var(--nn-n);
+    padding: 10px;
+    border: var(--nn-n);
+    color: #fff;
+}
+#address .content .up button{
+    background-color: #de4644;
+    padding: 10px;
+    color:#fff;
+    border: #de4644;
+}
+/* address section end */
+/* finishing line start */
+
+#finishing .container .row{
+    background-color:var(--nn-n) ;
+    padding: 10px;
+ }
+
+#finishing .container .row .copy{
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    padding: 10px;
+}
+#finishing .container .row .copy p span{
+    color: red;
+
+}
+#finishing .container .row .copy img{
+text-align: right;
+}
+
+/* finishing line end */
